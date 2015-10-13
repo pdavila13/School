@@ -13,7 +13,9 @@ namespace Com\Iesebre\Dam2\paolodavila\Curriculum;
  * Class Course
  * @package Com\Iesebre\Dam2\paolodavila\Curriculum
  */
-class Course {
+class Course extends Study {
+
+    Use Lesson;
 
     /**
      * @var

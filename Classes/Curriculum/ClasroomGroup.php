@@ -14,7 +14,9 @@ use Com\Iesebre\Dam2\paolodavila\Person\Student;
  * Class ClasroomGroup
  * @package Com\Iesebre\Dam2\paolodavila\Curriculum
  */
-class ClasroomGroup {
+class ClasroomGroup extends Course{
+
+    Use Lesson;
 
     /**
      * @var array

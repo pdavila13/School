@@ -15,6 +15,8 @@ namespace Com\Iesebre\Dam2\paolodavila\Curriculum;
  */
 class Study {
 
+    Use Lesson;
+
     /**
      * @var
      */

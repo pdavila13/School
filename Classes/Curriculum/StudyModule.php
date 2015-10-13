@@ -13,7 +13,7 @@ namespace Com\Iesebre\Dam2\paolodavila\Curriculum;
  * Class StudyModule
  * @package Com\Iesebre\Dam2\paolodavila\Curriculum
  */
-class StudyModule {
+class StudyModule extends Study{
 
     /**
      * @var

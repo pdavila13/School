@@ -13,7 +13,7 @@ namespace Com\Iesebre\Dam2\paolodavila\Curriculum;
  * Class Lesson
  * @package Com\Iesebre\Dam2\paolodavila\Curriculum
  */
-class Lesson {
+trait Lesson {
 
     /**
      * @var
