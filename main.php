@@ -1,8 +1,9 @@
 <?php
 
-use Com\Iesebre\Dam2\paolodavila\Person\Person;
+require_once __DIR__ . '/vendor/autoload.php';
 
-require "/home/pdavila/Code/School/Classes/Person/Person.php";
+use Com\Iesebre\Dam2\paolodavila\Persons\Person;
+
 
 /**
  * Created by PhpStorm.
@@ -10,7 +11,6 @@ require "/home/pdavila/Code/School/Classes/Person/Person.php";
  * Date: 5/10/15
  * Time: 18:14
  */
-
 
 
 $person = new Person();

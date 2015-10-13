@@ -1,0 +1,15 @@
+{
+    "name": "pdavila/school",
+    "authors": [
+        {
+            "name": "Paolo Davila",
+            "email": "paolodavila@iesebre.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Com\\Iesebre\\Dam2\\paolodavila\\" : "Classes"
+        }
+    },
+    "require": {}
+}

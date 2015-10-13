@@ -1,4 +1,4 @@
-<?php namespace Com\Iesebre\Dam2\paolodavila\Person;
+<?php namespace Com\Iesebre\Dam2\paolodavila\Persons;
 
 /**
  * Created by PhpStorm.
