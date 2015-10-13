@@ -1,4 +1,8 @@
-<?php namespace Com\Iesebre\Dam2\paolodavila\Person;
+<?php
+
+namespace Com\Iesebre\Dam2\paolodavila\Person;
+
+use Com\Iesebre\Dam2\paolodavila\Person\Person;
 
 /**
  * Created by PhpStorm.
@@ -11,16 +15,28 @@ class Student extends Person{
 
     use Worker;
 
+    /**
+     * @var bool|null
+     */
     public $dual = false;
 
+    /**
+     * @var
+     */
     public $classroomGroup;
 
+    /**
+     * @param null $dual
+     */
     function __construct($dual=null)
     {
         if($dual != null)
         $this->dual = $dual;
     }
 
+    /**
+     * @param
+     */
     public function render(){
 
         $this->type = "alumne";

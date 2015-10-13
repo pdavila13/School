@@ -8,27 +8,46 @@
 
 namespace Com\Iesebre\Dam2\paolodavila\Curriculum;
 
-
 use Com\Iesebre\Dam2\paolodavila\Person\Student;
 
+/**
+ * Class ClasroomGroup
+ * @package Com\Iesebre\Dam2\paolodavila\Curriculum
+ */
 class ClasroomGroup {
 
+    /**
+     * @var array
+     */
     public $students = array();
 
+    /**
+     * @var array
+     */
     public $courses = array();
 
-    function __construct(array $students)
-    {
+
+    /**
+     * @param array $students
+     */
+    function __construct(array $students) {
         $this->students = $students;
     }
 
+    /**
+     * @param Student $student
+     */
     public function addStudent(Student $student){
         array_push($this->students,$student);
     }
 
+    /**
+     * @param Course $student
+     */
     public function addCourse(Course $student){
         array_push($this->courses,$student);
     }
+
 
     /**
      * @return array

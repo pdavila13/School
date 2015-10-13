@@ -1,4 +1,6 @@
-<?php namespace Com\Iesebre\Dam2\paolodavila\Persons;
+<?php
+
+namespace Com\Iesebre\Dam2\paolodavila\Person;
 
 /**
  * Created by PhpStorm.
@@ -7,8 +9,15 @@
  * Time: 18:14
  */
 
+/**
+ * Class Person
+ * @package Com\Iesebre\Dam2\paolodavila\Persons
+ */
 class Person {
 
+    /**
+     * @var string
+     */
     public $type = "persona";
 
     /**
@@ -250,6 +259,9 @@ class Person {
         $this->givenName = $givenName;
     }
 
+    /**
+     *
+     */
     public function render(){
         echo "La {$this->type} té el nom " . $this->getGivenName() . "\n";
     }
