@@ -8,8 +8,8 @@ $ composer install
 
 # Diagrama UML
 
-[Diagram UML]()
+[Diagram UML](https://github.com/pdavila13/School/blob/master/DiagramPerson.uml)
 
 # Pàgina web
 
-[pdavila13.github.io/School]()
+[pdavila13.github.io/School](http://pdavila13.github.io/School/)
